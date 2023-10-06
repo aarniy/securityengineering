@@ -27,3 +27,12 @@ Sources
 https://www.cloudflare.com/learning/ddos/ddos-attack-tools/slowloris/
 https://www.youtube.com/watch?v=XiFkyR35v2Y&ab_channel=Computerphile
 https://en.wikipedia.org/wiki/Slowloris_(computer_security)
+
+
+Task3 
+
+Subtask 2
+dvwaSession cookie is generated as a second counter. It started 12:28:39 pm on October 6th, 2023. 
+
+Subtask 3
+For unsuccesful attempts response content length was 4703 or less. Successful attempts had length of 4747 and 4741.
