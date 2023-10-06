@@ -40,5 +40,5 @@ For unsuccesful attempts response content length was 4703 or less. Successful at
 
 Feedback
 
-Docker had issues running on laptop so could not come to excercise lecture :( Writing tasks are always a bit boring but useful. thc hydra task had problem to finding correct filter...
+Docker had issues running on laptop so could not come to excercise lecture :( Writing tasks are always a bit boring but useful. thc hydra task had problem to finding correct filter... Below is the command I tried to use if you could tell me why its not working?
 docker run --network="host" vanhauser/hydra -V -f -I -l admin -x 1:2:a "http-post-form://localhost/vulnerabilities/brute/:?username=^USER^&password=^PASS^&Login=Login:H=Cookie:PHPSESSID=YOUR-ANSWER-HERE; security=low:F=login.php"
