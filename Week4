@@ -1,0 +1,29 @@
+Aarni Ylitalo
+2584582
+
+Week 4
+
+Task 1
+Attack based on additional information is called side-channel attack. These attacks use e.g. power consumption, electromagnetic leaks and sound. 
+Side-channel attack can be done to multiple different kind of systems from CPUs and memory to network based attacks.
+Leaked data can be plaintext or encrypted. It can also be sound or visually seen with high resolution camera. 
+One of somewhat well known side-channel attack was Meltdown, which target was Intel x86 processors. It allowed unauthorized read all memory. The reason for the exploit was race condition between privilege check and instruction execution. It has been documented on: https://meltdownattack.com/meltdown.pdf
+Meltdown had to be fixed by each operating system vendor individually.	
+
+Sources 
+https://en.wikipedia.org/wiki/Side-channel_attack
+https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)
+https://meltdownattack.com/meltdown.pdf
+
+Task 2
+Slow loris is an attack directed mostly towards Apache web servers and its goal is to use servers bandwidth as much as possible. It does it by opening TCP sockets for each “user” and sending multiple HTTP requests, but extremely slow. It works on Apache servers because it opens a single thread for each user.
+The unique part about slow loris is that instead of sending multiple requests it sends the request byte by byte slowly but without getting timeout. Its also easy on attackers side because its sending out packets with such a slow volume. 
+Slow Loris prevents legitimate users from accessing web site because the limit of maximum users are capped. 
+Slow Loris can be mitigated by increasing server capacity, limiting the rate of incoming connections from single IP address, having minimum transfer speed, restricting connection time of clients and reverse proxies, firewalls, etc.
+Notable use of Slow Loris was during 2009 Iraninan presidential elections where sites ran by Iranian government were attacked.
+
+Sources
+
+https://www.cloudflare.com/learning/ddos/ddos-attack-tools/slowloris/
+https://www.youtube.com/watch?v=XiFkyR35v2Y&ab_channel=Computerphile
+https://en.wikipedia.org/wiki/Slowloris_(computer_security)
