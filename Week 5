@@ -1,0 +1,38 @@
+Aarni Ylitalo
+
+
+Task 1
+
+Intrusive application practices
+Typically features in software that invades users privacy, most commonly collects information without permission.
+Account credential theft through phishing
+Use of deceptive tactics to get persons private data e.g., usernames, passwords etc. Used methods include email, SMS, social media and phone calls.
+Outdated phones
+Malware is more likely to exploit vulnerabilities on old OS or drivers where it can elevate privileges and execute commands as root user. This can be used to make more attacks in the future.
+Sensitive data transmissions
+Data which contains sensitive data should always be transferred securely. If unsecure methods are used there are risks like; man-in-the-middle attacks, data interception, insecure protocol etc.
+Brute-force attacks to unlock a phone
+If phones unlocking codes are too simple like “1234” or “0000” there is a risk that attacker can brute force it with a device/software. To unlock a phone codes should be longer and not something like birthdays etc.
+Application credential storage vulnerability
+Sensitive application data e.g., usernames, passwords, API keys can be stolen if not stored appropriately. They are at risk if not physically protected or if they are weakly encrypted.
+ Unmanaged device protection
+Devices which are not properly managed or controlled can be a security risk. This can be following; lack of security policies, bad endpoint security or outdated software and many more.
+Lost or stolen data protection
+	Losing or getting data stolen may lead to unauthorized access, disclosure or misuse of data.
+Protecting enterprise data from being inadvertently backed up to a cloud service
+If one of the storage for backups is cloud service, it should be an approved cloud service. Unapproved services may turn out to be harmful and steal your backups.
+
+
+Task 2 on separate file!
+
+
+Task 3
+
+Malware and Viruses can lead to loss of data, unauthorized access and even break your system. Windowshas built-in antivirus Windows Defender.
+Exploiting Software Vulnerabilitiescan allow unauthorized access, execute harmful code or disrupt system operations. Windows battles against these by releasing security patches.
+Phishing and Social Engineering try to lure you into giving sensitive information like login details or banking information. Windows has feature called SmartScreen which help to identify and block phishing sites
+Drive-by Downloads install malware without users consent. Windows Defender SmartScreen blocks harmful content.
+Zero-Day Exploits are vulnerabilities that are unknown to software vendors. Windows has regular interval of security updates that reduce the window of exposure. Windows defender has some features that detects and mitigates zero-day exploits.
+USB/Removable Media Attacks can spread if plugging exposed or unknown USB drives that can lead to data loss or unauthorized access. In Windows you can control the auto-run feature of removable media which can prevent these attacks.
+Password Cracking may lead to unauthorized access and loss of sensitive data. Windows tries to prevent this by having users create strong and complex passwords.
+	
