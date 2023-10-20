@@ -1,0 +1,14 @@
+Containers
+
+Containers are virtualized isolated user spaces, for example docker engine runs containers. Instead of having completely virtualized hardware(virtual machine) it runs on the operating system and its hardware where it is ran at. User can define what resources like peripherals, network shares etc. the container can see and use. Multiple containers can be ran simultaneously and the programs inside the container can also communicate between each other if allowed. The uses of containers can be divided into three groups: overhead, flexibility and storage. Containers require less resources than full virtualization making them cheaper and easier to run. They are more flexible as they contain everything the program needs to be ran. Some offer file-level copy-on-write which makes back ups easier top make, more efficient on space and simpler to cache.
+TPM
+Trusted Platform Module(TPM) is ISO standardized(ISO/IEC 11889-1:2015) technology that enables trust in computing platforms. TPM itself is a physical integrated circuit on a motherboard. Implementations of TPM varies, there are discrete versions that are in tamper resistant and used in semiconductor packages, integrated used as software bug protection with hardware, firmware in e,g, UEFI, Hypervisor, and software TPMs that are emulators of physical TPM. TPM uses hardware cryptography to create keys which are used to ensure combination of hardware to be trusted. Example of this is Unified Extensible Firmware Interface(UEFI) uses TPM to make a root of trust. TPM has Platform Configuration registers (PCRs) which allow secure storage and security-relevant reporting. Other uses are Digital rights management, Windows Defender, Windows Domain logon, protection and prevention of software licenses and cheating prevention in online games. There are some attacks documented against TPMs latest being in 2021. The attack was on discrete TPM which has tamper resistance but other endpoints of its communication bus were not secure. Attack was allowed to read full-disk-encryption key which lead to decrypting laptop’s SSD
+
+
+
+Sources
+
+https://en.wikipedia.org/wiki/OS-level_virtualization
+https://www.youtube.com/watch?v=cjXI-yxqGTI
+https://www.iso.org/standard/66510.html
+https://en.wikipedia.org/wiki/Trusted_Platform_Module
